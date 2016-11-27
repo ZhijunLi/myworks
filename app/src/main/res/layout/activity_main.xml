@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="me.lizhijun.myworks.MainActivity">
+
+    <TextView
+        android:text="@string/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_marginTop="21dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btn_movie"
+        android:text="@string/app_movies"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/btn_shares"
+        android:text="@string/app_shares"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/btn_reader"
+        android:text="@string/app_reader"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"/>
+
+    <Button
+        android:id="@+id/btn_news"
+        android:text="@string/app_news"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/btn_graduation_design"
+        android:text="@string/app_graduation_design"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"/>
+</LinearLayout>

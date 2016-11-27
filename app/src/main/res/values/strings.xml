@@ -7,4 +7,5 @@
     <string name="app_news">最新闻</string>
     <string name="app_graduation_design">毕业设计</string>
     <string name="no_app">打开的app不存在</string>
+    <string name="open_app">启动应用：</string>
 </resources>

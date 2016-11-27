@@ -31,19 +31,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btn_movie:
-                Toast.makeText(MainActivity.this,"启动应用："+getResources().getString(R.string.app_movies),Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,getResources().getString(R.string.open_app)+getResources().getString(R.string.app_movies),Toast.LENGTH_SHORT).show();
                 break;
             case R.id.btn_shares:
-                Toast.makeText(MainActivity.this,"启动应用："+getResources().getString(R.string.app_shares),Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,getResources().getString(R.string.open_app)+getResources().getString(R.string.app_shares),Toast.LENGTH_SHORT).show();
                 break;
             case R.id.btn_reader:
-                Toast.makeText(MainActivity.this,"启动应用："+getResources().getString(R.string.app_reader),Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,getResources().getString(R.string.open_app)+getResources().getString(R.string.app_reader),Toast.LENGTH_SHORT).show();
                 break;
             case R.id.btn_news:
-                Toast.makeText(MainActivity.this,"启动应用："+getResources().getString(R.string.app_news),Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,getResources().getString(R.string.open_app)+getResources().getString(R.string.app_news),Toast.LENGTH_SHORT).show();
                 break;
             case R.id.btn_graduation_design:
-                Toast.makeText(MainActivity.this,"启动应用："+getResources().getString(R.string.app_graduation_design),Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,getResources().getString(R.string.open_app)+getResources().getString(R.string.app_graduation_design),Toast.LENGTH_SHORT).show();
                 break;
             default:
                 Toast.makeText(MainActivity.this,getResources().getString(R.string.no_app),Toast.LENGTH_SHORT).show();
